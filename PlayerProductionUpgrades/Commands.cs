@@ -288,7 +288,7 @@ namespace PlayerProductionUpgrades
             {
                 foreach (var (k, upgrade) in upgradeTypes.Value)
                 {
-                    sb.AppendLine("Upgrades");
+                    sb.AppendLine("Upgrade");
                     sb.AppendLine("=-=-=-=-=-=-=-=-=-=-=-=-=-=-=");
                     sb.AppendLine($"Current Upgrade Level {playerData.GetUpgradeLevel(upgradeTypes.Key)} of {k}");
                     sb.AppendLine("Upgrade number " + k);
